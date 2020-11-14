@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav--lista">
+                <li class="nav__lista--item">Home</li>
+                <li class="nav__lista--item">Moments</li>
+                <li class="nav__lista--item">Notifications</li>
+                <li class="nav__lista--item">Menssages</li>
+            </ul>
+            <div class="header__nav--listaBusqueda">
+                <div class="nav__listaBusqueda--input"><input placeholder="Buscar Dailyui" class="listaBusqueda__input"  type="text"></div>
+                <img   class="nav__listaBusqueda--img" src="asset/img/fotoPerfil.jpg" alt=""> 
+                <div   class="nav__listaBusqueda--Dai" >Dailyui</div>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <nav class=main__nav>
+            <div class="none"></div>
+            <ul class="main__nav--lista">
+                <li class="nav__lis--item">Dailyui & Replies</li>
+                <li class="nav__lis--item">Dailyui</li>
+                <li class="nav__lis--item">Media</li>
+            </ul>
+            <div class="Fol__pos">
+                <button   class="nav__listaBusqueda--Fol" >Following</button>
+            </div>
+        </nav>
+        <footer class="main__footer">
+            <div class="main__footer--ficha">
+                <img class="footer__ficha--img"src="asset/img/fotoPerfil.jpg" alt="">
+                <div class="footer__ficha--descri">
+                   <h3 class="ficha--descri">John LLanes</h3>
+                   <p  class="ficha--descri">@dailyui challenge</p>
+                </div>
+                <div class="footer__ficha--descri">
+                    <h3 class="ficha--descri">Frontend Developer</h3>
+                    <p  class="ficha--descri">@JH027</p>
+                 </div>
+                <ul class="footer__ficha-item">
+                    <li>
+                        <img class="icom" src="data:image/png;base64,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" alt="">
+                        <a href="https://dribbble.com/JH07">Dribbble</a>
+                    </li>
+                    <li>
+                        <img class="icom" src="https://avatars2.githubusercontent.com/u/2975064?s=280&v=4" alt="">
+                        <a href="https://platzi.com/@john-harley-llanes-escobar/">Platzi</a>
+                    </li>
+                    <li>
+                        <img class="icom" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+                        <a href="https://github.com/21harley">Github</a>
+                    </li>
+                    <li>
+                        <img class="icom" src="https://w7.pngwing.com/pngs/243/80/png-transparent-sololearn-computer-programming-android-android-text-logo-code-thumbnail.png" alt="">
+                        <a href="https://www.sololearn.com/Profile/16706754">Sololearn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__ficha--mensaje">+58 0424-7322600</div>
+            <div class="footer__ficha--mj">john.llanes.1996@gmail.com</div>
+        </footer>
+        <article class="main__article">
+            <section class="main__article--ficha">
+                <img class="article__fichas--img" src="asset/img/fotoPerfil.jpg" alt="">
+                <div>
+                    <h3>hello world programacion</h3>
+                    <p class="article__fichas-mensaje">
+                        El programa «Hola Mundo» o «Hello World» es considerado el más simple en casi todos los lenguajes de programación.             
+                    </p>
+                </div>
+            </section>
+            <section class="main__article--ficha">
+                <img class="article__fichas--img" src="asset/img/fotoPerfil.jpg" alt="">
+                <div>
+                    <h3>UNET</h3>
+                    <p class="article__fichas-mensaje">
+                        La Universidad Nacional Experimental del Táchira, mejor conocida como
+                         la Universidad del Táchira o por sus siglas UNET.
+                    </p>
+                </div>
+            </section>
+        </article>
+        <aside class="main__aside">
+            <div class="main__aside--ficha">
+              <img class="aside__img"src="asset/img/nave-1.png" alt="">
+              <p class="aside__mensaje">
+                La imaginación es un proceso creativo superior que permite al
+                 individuo manipular información generada intrínsecamente con el fin
+                  de crear una representación percibida por los sentidos.
+              </p>
+            </div>
+        </aside>
+    </div>
+    <!--
+    <aside class="aside"></aside>
+    
+    -->
+    <script src="script.js"></script>
+</body>
+</html>
