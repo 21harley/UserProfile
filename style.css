@@ -255,7 +255,7 @@ body{
 }
 .article__fichas-mensaje{
     height: 30%;
-    margin: 0 20px 10px 0;
+    margin: 0 20px 10px 20px;
     text-align: justify;
     text-indent: 1em;
 }
@@ -280,6 +280,10 @@ a{
     margin: 0 20px 10px 20px;
     font-size: 90%;
 }
+h3{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
 
 @media only screen and (max-width: 1070px){
     .main{
@@ -300,6 +304,9 @@ a{
     }
     .main__aside--ficha{
         font-size: 90%;
+    }
+    .nav__listaBusqueda--Fol{
+        width: 80px;
     }
 }
 @media only screen and (max-width: 820px){
@@ -379,7 +386,8 @@ a{
         width: 30%;
     }
     h3{
-      margin: 0;
+        margin: 20px 0 0 0;
+        text-align: center;
     }
     .header__nav--lista{
         flex-direction: column;
@@ -490,7 +498,7 @@ a{
        margin: auto;
    }
    .footer__ficha--mensaje{
-       font-size: large;
+       font-size: 16px;
    }
  
    .ficha--descri{
