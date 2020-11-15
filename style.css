@@ -442,8 +442,8 @@ a{
 @media only screen and (max-width: 490px){
    .main__nav{
        position: relative;
-       top: 0px;
-       height: 50px;
+       top: 30px;
+       height: 40px;
    }
    .main__nav--lista{
        position: relative;
@@ -454,12 +454,48 @@ a{
        position: relative;
        top: 0;
        height: 20px;
-       width: 60px;
+       width: 100px;
+       border-radius: none;
    }
    .aside__mensaje{
        font-size: 10px;
    }
+   .main__footer{
+       height: 500px;
+   }
    .main__footer--ficha{
        top: 25px;
+       display: flex;
+       flex-direction: column;
+       height: 80%;
+       width: 80%;
    }
+   h3{
+       text-align: center;
+       margin: 20px 0 0 0;
+   }
+   .article__fichas-mensaje{
+       margin: 0 10px 0 10px;
+   }
+   .main__nav{
+       display: grid;
+       grid-template-columns: 70% 30%;
+   }
+   .nav__lis--item{
+       margin: 10px 0 10px 20px;
+   }
+   .footer__ficha--img{
+       height: 60px;
+       width: 60px;
+       margin: auto;
+   }
+   .footer__ficha--mensaje{
+       font-size: large;
+   }
+ 
+   .ficha--descri{
+       text-align: left;
+       padding: 0;
+   }
+
 }
