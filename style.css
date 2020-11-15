@@ -439,3 +439,27 @@ a{
         width: 70px;
     } 
 }
+@media only screen and (max-width: 490px){
+   .main__nav{
+       position: relative;
+       top: 0px;
+       height: 50px;
+   }
+   .main__nav--lista{
+       position: relative;
+       left: -20px;
+       flex-direction: row;
+   }
+   .nav__listaBusqueda--Fol{
+       position: relative;
+       top: 0;
+       height: 20px;
+       width: 60px;
+   }
+   .aside__mensaje{
+       font-size: 10px;
+   }
+   .main__footer--ficha{
+       top: 25px;
+   }
+}
