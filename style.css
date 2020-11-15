@@ -448,9 +448,21 @@ h3{
     } 
 }
 @media only screen and (max-width: 490px){
+    body{
+        height: 1200px;
+        grid-template-rows: 30% 70%;
+    }
+    .header{
+        height:100%;
+    }
+    .main{
+        height: 850px;
+        display: flex;
+        justify-content: space-between;
+    }
    .main__nav{
        position: relative;
-       top: 30px;
+       top: 0px;
        height: 40px;
    }
    .main__nav--lista{
@@ -469,13 +481,16 @@ h3{
        font-size: 10px;
    }
    .main__footer{
-       height: 500px;
+       height: 150%;
+   }
+   .main__aside{
+       height: 25%;
    }
    .main__footer--ficha{
        top: 25px;
        display: flex;
        flex-direction: column;
-       height: 80%;
+       height: 300px;
        width: 80%;
    }
    h3{
@@ -489,6 +504,9 @@ h3{
        display: grid;
        grid-template-columns: 70% 30%;
    }
+   .main__article{
+       height: 60%;
+   }
    .nav__lis--item{
        margin: 10px 0 10px 20px;
    }
@@ -500,7 +518,7 @@ h3{
    .footer__ficha--mensaje{
        font-size: 16px;
    }
- 
+    
    .ficha--descri{
        text-align: left;
        padding: 0;
